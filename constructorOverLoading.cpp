@@ -31,4 +31,12 @@ void mahasiswa :: cetak(){
 int main(){
     mahasiswa mhs1(102030);      //hanya NIM
     mahasiswa mhs2("Andi");      //hanya Nama
+    mahasiswa mhs3(010203, "Santi"); //nim dan nama
+
+    //tampilkan nilai
+    cout << "Mahasiswa 1: "; mhs1.cetak();
+    cout << "Mahasiswa 2: "; mhs1.cetak();
+    cout << "Mahasiswa 3: "; mhs1.cetak();
+
+    return 0;
 }
