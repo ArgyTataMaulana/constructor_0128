@@ -22,3 +22,13 @@ mahasiswa :: mahasiswa(int iNim){
 mahasiswa :: mahasiswa(string iNama){
     nama = iNama; //definisi hanya NAMA
 }
+
+void mahasiswa :: cetak(){
+    cout << endl << "nim : " << nim << endl;
+    cout << "Nama : " << nama << endl;
+}
+
+int main(){
+    mahasiswa mhs1(102030);      //hanya NIM
+    mahasiswa mhs2("Andi");      //hanya Nama
+}
