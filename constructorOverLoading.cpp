@@ -14,3 +14,7 @@ class mahasiswa {
     mahasiswa(int iNim, string iNama);
     void cetak();
 };
+
+mahasiswa :: mahasiswa(int iNim){
+    nim = iNim; //definisi hanya NIM
+}
